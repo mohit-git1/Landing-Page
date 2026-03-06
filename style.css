@@ -1,0 +1,146 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family:roboto;
+  margin: 0;
+
+
+}
+
+
+ .top{
+  display: flex;
+  flex-direction: column;
+  color:white;
+  background-color: #1F2937;
+  height: 300px;
+
+ }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+  padding-left:100px;
+  padding-right:100px;
+
+}
+.logo{
+  font-size:24px;
+
+
+}
+
+
+.toplinks{
+  display: flex;
+  gap:30px;
+    font-size: 18px;
+
+
+
+}
+
+.top2top{
+  display: flex;
+}
+
+.image{
+  padding:10px;
+
+}
+
+.top2{
+  display: flex;
+  flex-direction: column;
+  padding-left:100px;
+  gap: 10px;
+
+}
+
+
+
+.hero{
+  font-size: 48px;
+  font-weight: 900;
+  /* display: flex;*/
+   gap:50px;
+
+}
+.text1{
+  font-size: 18px;
+  color: white;
+
+
+}
+.sign1{
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+  width:90px;
+  padding: 7px;
+  border-radius: 5px;
+
+}
+/* MIDDLE */
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+
+
+}
+
+
+.img1, .img2, .img3, .img4{
+  width: 200px;
+  border: 4px;
+  border-color: blue;
+  border-radius:20px;
+}
+
+/* QUOTE */
+
+.quote{
+  display: flex;
+  padding: 100px;
+  flex-direction: column;
+  background-color: #E5E7Eb;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* CALL TO ACTION */
+
+.bottomcall{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.call{
+  background-color:#3882F6 ;
+}
+
+
+
+
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding:16px;
+  background-color:#1F2937 ;
+  color: WHITE;
+  margin-top:180px;
+  justify-content: center;
+
+}
